@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-23adb67108718a654c4c0d68bc4863c37c092f78.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-a7f5d19e16895c328a2d60b24e77f68af7c5324c.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.20.0\2408070b2abec043624d35b35e30450f1b663858\google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.20.0-8c5f1ab51496e22906a8f265a47e9b8a7a8cb344.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-403bb4a005054651cc39c89288d3bdb78f55dfc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0-fcc6497f8bce6f21e57b34c5020ab2bdda054785.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\classes-6e7ce11ef52022e355dd1b22086389ec259f9a51.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\libs\libDaumMapEngineApi.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6dd2e76d5378ef089bd11c512ed10015a21e4380">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\libDaumMapEngineApi-6035e9c1f36274cb48fe04bd082f424b742afbdb.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.20.0\93d82db2bca534960253f43424b2ba9d7638b4d2\google-http-client-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-http-client-1.20.0-e494ef04173ea579ca6c778fd523f9445d8c16d8.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\classes-94da9f8405655332508d5b720216524b70c87ccf.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.20.0\5673179575c32b69a474334255c3044adf18d40\google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.20.0-418227cc4229f8c465753d42dd3a5242e71a61aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.3.0\27cabf3558be23a89f054334dd92512645ad34d9\bolts-android-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="27cabf3558be23a89f054334dd92512645ad34d9">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\bolts-android-1.3.0-2bf9c517e25c7017ca4c0ff54edf439da159d836.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.20.0\1d086ac5756475ddf451af2e2df6e288d18608ca\google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.20.0-41e0b22386375d290577aed12fb37ab56067698b.jar" />
+    </item>
+    <item
+        jar="C:\CookAndroid\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-f87b2a4445abe2bcf93aef6c452a71a24a2cff25.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.11.0\6592129dec2caa8791d322c7e4b6b7a30e8eadae\parse-android-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6592129dec2caa8791d322c7e4b6b7a30e8eadae">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\parse-android-1.11.0-b915361505f3de52eafa487ca57aee8f7516b534.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-4bd9c28a33901428a1b3709e17f1e1736e13dd78.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-2973b106bf9da9bd928abfc906377a68e0cc9287.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\classes-4eb83bfc8151359802f90963836588d79e147f4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.20.0\313dc99a7963523871495897ca11aa8472b3c6fd\google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.20.0-f1a8bcadff352179f762db1373eebc989b81259b.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\libs\libDaumMapAndroid.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91c9de067eff6b3e026d21934e91ec45db8cd277">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\libDaumMapAndroid-b5f77dd465cc0d2e06f064b346eb1a557feced2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-calendar\v3-rev125-1.20.0\fef496f895ad5be86416863153d4efbf7b601f8a\google-api-services-calendar-v3-rev125-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef496f895ad5be86416863153d4efbf7b601f8a">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-api-services-calendar-v3-rev125-1.20.0-c432838317e40575967f927707cf1f1017022096.jar" />
+    </item>
+    <item
+        jar="C:\Users\권영채\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.20.0\d3e66209ae9e749b2d6833761e7885f60f285564\google-api-client-1.20.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\google-api-client-1.20.0-3f036e9a121d047e7e9f567b73f2db431a41608f.jar" />
+    </item>
+    <item
+        jar="C:\Android\SilenceScheduler_Final\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Android\SilenceScheduler_Final\app\build\intermediates\pre-dexed\debug\classes-70c29294a93b4855f01511e02287167f7f470861.jar" />
+    </item>
+
+</items>

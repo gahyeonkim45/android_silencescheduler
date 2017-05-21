@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:text="뒤로가기"
+            android:id="@+id/btnBack"
+            android:background="#E5E5E5"
+
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnComplete"
+            android:layout_alignParentRight="true"
+            android:text="완료"
+            android:layout_weight="0.07"
+            android:background="#E5E5E5"/>
+
+    </RelativeLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="  제목을 입력하세요"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnDate"
+                android:background="#E5E5E5"
+                android:text="날짜선택"
+                android:editable="true" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "/>
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvDayofMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "/>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnStart"
+                android:background="#E5E5E5"
+                android:text="시작시간"
+                />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvStartHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="선택해주세요"/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvStartMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnEnd"
+                android:background="#E5E5E5"
+                android:text="끝시간"/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvEndHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="선택해주세요"/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvEndMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="#E5E5E5"
+                    android:id="@+id/btnLocation"
+                    android:text="위치"/>
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/tvLocationName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="#E5E5E5"
+                    android:id="@+id/btnMemo"
+                    android:text="메모"/>
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/tvMemo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="#E5E5E5"
+                    android:id="@+id/btnAlarm"
+                    android:text="알람"/>
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/tvselAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="#E5E5E5"
+                    android:id="@+id/btnRepeat"
+                    android:text="반복"/>
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/tvselRepeat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout><!-- From: file:/C:/Android/SilenceScheduler_Final/app/src/main/res/layout/page2.xml -->

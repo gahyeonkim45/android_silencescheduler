@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:text="뒤로가기"
+            android:id="@+id/btnBack"
+            android:background="#E5E5E5"
+
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnComplete"
+            android:layout_alignParentRight="true"
+            android:text="완료"
+            android:layout_weight="0.07"
+            android:background="#E5E5E5"/>
+
+    </RelativeLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" 할일 제목을 입력하세요"
+                android:background="@null"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnDate"
+                android:background="#E5E5E5"
+                android:text="날짜선택"/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "/>
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tvDayofMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "/>
+
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkbar"
+            android:textColor="#0f0f0f"
+            android:text="상태바 알림 사용여부"/>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Android/SilenceScheduler_Final/app/src/main/res/layout/page3.xml -->

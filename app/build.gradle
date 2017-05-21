@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.example.allactivity"
+        minSdkVersion 11
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    //   compile 'com.android.support:appcompat-v7:23.0.1'
+    //  compile 'com.android.support:design:19.1.0'
+    compile 'com.android.support:support-v4:19.1.0'
+
+
+
+    /** parse.com **/
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile 'com.parse:parse-android:1.+'
+    /** parse.com **/
+
+
+    /** daum map **/
+    compile files('libs/libDaumMapAndroid.jar')
+    compile files('libs/libDaumMapEngineApi.jar')
+    /** daum map **/
+
+
+
+    compile 'com.google.android.gms:play-services-identity:7.8.0'
+    compile('com.google.api-client:google-api-client-android:1.20.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    compile('com.google.apis:google-api-services-calendar:v3-rev125-1.20.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+}

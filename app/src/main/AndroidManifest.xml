@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.allactivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:protectionLevel="signature"
+        android:name="com.example.allactivity.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.example.allactivity.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"  />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_SERVICE"/>
+
+
+    <application
+        android:name=".StarterApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/silence"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar"  >
+
+        <activity
+            android:name="com.example.allactivity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- parse.com  -->
+
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.allactivity" />
+            </intent-filter>
+        </receiver>
+        <!-- parse.com  -->
+
+        <activity android:name="com.example.allactivity.WeatherActivity"/>
+        <activity android:name="todopac.List2"/>
+        <activity android:name=".addpac.AddCal" android:label="스케줄 등록"/>
+        <activity android:name=".addpac.AddCal_location" android:label="Find Location"/>
+        <activity android:name=".addpac.AddTodo" android:label="ToDo page"/>
+
+        <activity android:name="com.todo.TodoActivity" android:label="ToDo page"/>
+        <activity android:name="timetablepac.TimeTableActivity" android:label="ToDo page"/>
+
+        <service android:name=".ServiceClass"
+            android:enabled="true"
+            android:process=":remote">
+
+            <intent-filter android:priority="9999">
+
+                <action android:name="com.example.allactivity"/>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.provider.Telephony.SEND_SMS" />
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </service>
+
+
+        <receiver
+            android:name=".RestartService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="RestartService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="ACTION.RESTART.ServiceClass" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+
+</manifest>
